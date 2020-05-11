@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="69521629-76E6-2161-0749-98FA6FE4A2E4">
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 18:18:04 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

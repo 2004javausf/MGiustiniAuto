@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="autoERD" id="D20932FE-7A8F-2F37-FC61-648ECE1AB516" version="3.5">
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 18:18:03 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D20932FE-7A8F-2F37-FC61-648ECE1AB516</designId>
+</OSDM_Design>
