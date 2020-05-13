@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="USERS" directorySegmentName="seg_0" id="F73C7B66-543B-CAC9-49FD-E75D884C446C">
+<sourceConnName>MtSeleyaAuto</sourceConnName>
+<sourceObjSchema>SHERLOCKFREAK</sourceObjSchema>
+<sourceObjName>USERS</sourceObjName>
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:05 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

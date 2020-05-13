@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="autoERD" id="EFE56215-DF8F-FDC5-2987-E5693B8CBBE6" mainViewID="8B7E81EA-BD47-CFC4-CE5C-65059FFC91B4">
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:15:45 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>MtSeleyaAuto</connName>
+<connUser>SHERLOCKFREAK</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

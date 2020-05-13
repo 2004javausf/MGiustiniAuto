@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PAYMENT_PLANS" directorySegmentName="seg_0" id="843DAE9A-6CB0-B069-2A5C-052CDB2EEC93">
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:31 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+<schemaObject>CDB21EDE-2902-06AB-58FD-AA81A1D86962</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>39F7702A-1F3E-D8E6-CB2C-D745E157A190</segment>
+<tableSpace>F73C7B66-543B-CAC9-49FD-E75D884C446C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PLAN_ID" id="0D281F78-9A7B-CEA8-E5EC-A63E0C375377">
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:32 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AMOUNT_PAID" id="20E84AB8-EDA0-A964-D12E-7603688E0E79">
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:32 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PLAN_LENGTH_MONTHS" id="42C9D6FB-9600-D548-F8C9-0B4D405842FD">
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:32 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAYEE_ID" id="72009317-8F2D-8F13-92AC-57E9D18CE54F">
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:32 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAYMENT_AMT" id="A654C352-7A25-CE9F-0167-A5C3872462C5">
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:32 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REMAINING_PAYMENTS" id="E6746369-0332-E243-A6FE-F000FB7CEC19">
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:32 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_PAYEE_ID" id="7EFB73A9-A0F2-5999-966D-787AFC690D4A">
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:33 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PAYMENT_PLANS_PK" id="72D3DFBF-B28E-AB16-9A55-5E4071E2AC0D">
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:32 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+<schemaObject>CDB21EDE-2902-06AB-58FD-AA81A1D86962</schemaObject>
+<segment>A82E0C49-5ADF-F8E6-24C5-06BBF8657F07</segment>
+<tableSpace>F73C7B66-543B-CAC9-49FD-E75D884C446C</tableSpace>
+<indexSegment>A82E0C49-5ADF-F8E6-24C5-06BBF8657F07</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

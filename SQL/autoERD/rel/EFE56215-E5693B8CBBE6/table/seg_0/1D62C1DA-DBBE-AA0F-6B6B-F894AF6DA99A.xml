@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D62C1DA-DBBE-AA0F-6B6B-F894AF6DA99A" schemaObject="CDB21EDE-2902-06AB-58FD-AA81A1D86962" name="EMPLOYEE">
+<sourceConnName>MtSeleyaAuto</sourceConnName>
+<sourceObjSchema>SHERLOCKFREAK</sourceObjSchema>
+<sourceObjName>EMPLOYEE</sourceObjName>
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:23 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLOYEE_ID" id="358AC1F8-B43B-1377-78D7-AE43B21A0907">
+<sourceConnName>MtSeleyaAuto</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>EMPLOYEE_ID</sourceObjName>
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:23 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="F_NAME" id="A8ADC6FC-B3CE-6A5A-8A45-4983C8E15FDF">
+<sourceConnName>MtSeleyaAuto</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>F_NAME</sourceObjName>
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:23 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="L_NAME" id="CA947188-0DEE-41A0-FA4D-ED470C7170C1">
+<sourceConnName>MtSeleyaAuto</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>L_NAME</sourceObjName>
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:23 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERNAME" id="DD5C5F50-1C49-18EF-4888-61EA5F0BC1EC">
+<sourceConnName>MtSeleyaAuto</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>USERNAME</sourceObjName>
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:23 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD" id="363D1181-24AC-D83B-89BE-78D8C7F87EFF">
+<sourceConnName>MtSeleyaAuto</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>PASSWORD</sourceObjName>
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:23 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6AADBBA3-EC7D-DB77-52AB-018A24033903" schemaObject="CDB21EDE-2902-06AB-58FD-AA81A1D86962" name="EMPLOYEE_PK">
+<sourceConnName>MtSeleyaAuto</sourceConnName>
+<sourceObjSchema>SHERLOCKFREAK</sourceObjSchema>
+<sourceObjName>SYS_C005144</sourceObjName>
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:23 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="358AC1F8-B43B-1377-78D7-AE43B21A0907"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

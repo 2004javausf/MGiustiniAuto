@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1E5D5C18-7AAE-B39E-F7A1-C07E5FF4AFFE" containerWithKeyObject="843DAE9A-6CB0-B069-2A5C-052CDB2EEC93" localFKIndex="7EFB73A9-A0F2-5999-966D-787AFC690D4A" name="FK_PAYEE_ID">
+<sourceConnName>MtSeleyaAuto</sourceConnName>
+<sourceObjSchema>SHERLOCKFREAK</sourceObjSchema>
+<sourceObjName>FK_PAYEE_ID</sourceObjName>
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:33 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+<referredTableLongName>SHERLOCKFREAK.CUSTOMER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>92FD1371-60A2-6C79-F740-DF6A7B7CE04B</referredTableID>
+<keyObject>F5D99D7A-CB51-950D-6A63-B20A6B34D632</keyObject>
+<referredKeyID>F5D99D7A-CB51-950D-6A63-B20A6B34D632</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CUSTOMER_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

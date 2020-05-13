@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CAR" directorySegmentName="seg_0" id="78BD9F61-65B7-44A0-6E8D-EC46B8C1EA08">
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:05 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+<schemaObject>CDB21EDE-2902-06AB-58FD-AA81A1D86962</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>39F7702A-1F3E-D8E6-CB2C-D745E157A190</segment>
+<tableSpace>F73C7B66-543B-CAC9-49FD-E75D884C446C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="OWNER_ID" id="125E6719-C223-A380-4591-054A3340BF3F">
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:05 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAR_COLOR" id="1C060230-15B0-5883-AC2A-1FAAEA1FFE28">
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:05 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAR_PRICE" id="3C2641FA-41DA-6ADF-9CFD-246D89E2A7FF">
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:05 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAR_MAKE" id="60AE2F47-2631-C565-2A06-E0F77D45C938">
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:05 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAR_YEAR" id="B322BDB2-1448-E6D3-78E4-7E137399FB75">
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:05 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAR_ID" id="E0D74DE1-95B0-525F-0D06-78CC78ACABCF">
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:05 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAR_MODEL" id="E81EA1FA-2E40-182C-06C2-F65E32AD11CB">
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:05 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OWNED" id="EBFBD803-FBBB-DB83-DBCC-CF2325E68E1B">
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:05 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_OWNER_ID" id="400D8364-1602-37DA-3934-B8E5EA4F325D">
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:07 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CAR_PK" id="45A868AF-7EEB-A176-71D1-CA1DABDF914C">
+<createdBy>mauri</createdBy>
+<createdTime>2020-05-11 20:16:07 UTC</createdTime>
+<ownerDesignName>autoERD</ownerDesignName>
+<schemaObject>CDB21EDE-2902-06AB-58FD-AA81A1D86962</schemaObject>
+<segment>A82E0C49-5ADF-F8E6-24C5-06BBF8657F07</segment>
+<tableSpace>F73C7B66-543B-CAC9-49FD-E75D884C446C</tableSpace>
+<indexSegment>A82E0C49-5ADF-F8E6-24C5-06BBF8657F07</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
