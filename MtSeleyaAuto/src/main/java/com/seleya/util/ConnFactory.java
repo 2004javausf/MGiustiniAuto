@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConnFactory {
-	private static ConnFactory cf = new ConnFactory();
+	static ConnFactory cf = new ConnFactory();
 	
 	private ConnFactory() {
 		super();

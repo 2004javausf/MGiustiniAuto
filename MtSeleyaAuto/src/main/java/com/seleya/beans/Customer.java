@@ -1,11 +1,11 @@
 package com.seleya.beans;
 
 public class Customer {
-	private int custID;
+	private static int custID;
 	private String custFName;
 	private String custLName;
-	private String custUsername;
-	private String custPassword;
+	private static String custUsername;
+	private static String custPassword;
 	
 	public Customer(int custID, String custFName, String custLName, String custUsername, String custPassword) {
 		super();
@@ -16,7 +16,7 @@ public class Customer {
 		this.custPassword = custPassword;
 	}
 
-	public int getCustID() {
+	public static int getCustID() {
 		return custID;
 	}
 

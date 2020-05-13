@@ -3,7 +3,26 @@
   <groupId>com.seleya</groupId>
   <artifactId>MtSeleyaAuto</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+   <properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+  
   <dependencies>
+  <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+	<dependency>
+		<groupId>org.apache.logging.log4j</groupId>
+		<artifactId>log4j-core</artifactId>
+		<version>2.8.2</version>
+	</dependency>
+	
+ <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+	<dependency>
+		<groupId>org.apache.logging.log4j</groupId>
+		<artifactId>log4j-api</artifactId>
+		<version>2.8.2</version>
+	</dependency> 
+  
   		<!-- https://mvnrepository.com/artifact/com.oracle.ojdbc/ojdbc8 -->
 	<dependency>
 		<groupId>com.oracle.ojdbc</groupId>
@@ -11,8 +30,5 @@
 		<version>19.3.0.0</version>
 	</dependency>
   </dependencies>
-  <properties>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
-  </properties>
+ 
 </project>
